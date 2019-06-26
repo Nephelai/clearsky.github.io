@@ -1,8 +1,4 @@
-source 'https://rubygems.org'
-
-gem 'bundler'
-gem 'jekyll'
-gem 'jekyll-tagging'
+source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
@@ -16,5 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-feed"
   gem "jemoji"
+  gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
